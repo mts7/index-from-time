@@ -1,6 +1,6 @@
 import setuptools
 
-VERSION = '0.1.2'
+VERSION = '0.1.3'
 
 setuptools.setup(
     name='index-from-time',
@@ -18,6 +18,9 @@ setuptools.setup(
         'Programming Language:: Python:: 3.7',
         'Programming Language:: Python:: 3.8',
         'Programming Language:: Python:: 3.9',
+    ],
+    install_requires=[
+        'pytest',
     ],
     python_requires='>=3.6',
 )

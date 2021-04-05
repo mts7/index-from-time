@@ -2,3 +2,4 @@
 /dist/
 /build/
 /index_from_time.egg-info/
+/.coverage
